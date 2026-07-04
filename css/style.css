@@ -231,6 +231,20 @@ body.en .mi-en{ font-style:normal; font-size:15px; color:var(--ink-soft); margin
   nav .links a{ padding:8px 8px; font-size:12.5px; }
   section{ padding:64px 18px; }
 }
+@media (max-width: 700px){
+  nav{
+    flex-wrap:wrap; justify-content:center; gap:2px 8px; padding:10px 10px 8px;
+    background:linear-gradient(rgba(27,17,20,.55), rgba(27,17,20,0));
+  }
+  nav.solid{ padding:8px 10px 6px; }
+  nav .brand{ margin-right:0; flex-basis:100%; justify-content:center; }
+  nav .brand svg{ width:26px; height:26px; }
+  nav .brand span{ font-size:17px; }
+  nav .links{ justify-content:center; }
+  nav .links a{ padding:6px 7px; font-size:12px; letter-spacing:.05em; }
+  nav .links a.cta{ padding:6px 10px; }
+  .lang-sw{ margin-left:2px; }
+}
 @media (prefers-reduced-motion: reduce){
   .rv{ opacity:1; transform:none; transition:none; }
   .scroll-hint{ animation:none; }
