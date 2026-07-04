@@ -24,3 +24,4 @@ Otwórz `index.html` w przeglądarce — nic więcej nie trzeba.
 
 - Instagram: [@madamehanoi.pl](https://www.instagram.com/madamehanoi.pl)
 - Mapa: [Google Maps](https://maps.app.goo.gl/C43zNtfMTMiQCrqGA)
+
