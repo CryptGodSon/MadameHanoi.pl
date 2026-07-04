@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Madame Hanoi — Restauracja Wietnamska · Warszawa, Chmielna 6</title>
+<meta name="description" content="Madame Hanoi — autentyczna kuchnia wietnamska w sercu Warszawy. Phở, bún chả, świeże sajgonki i regionalne specjały z Hanoi. Chmielna 6, Śródmieście.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%AA%B7%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ======================= NAV ======================= -->
+<nav id="nav">
+  <a class="brand" href="#top">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><use href="#lotus"/></svg>
+    <span>Madame Hanoi</span>
+  </a>
+  <div class="links">
+    <a href="#o-nas" data-en="About">O nas</a>
+    <a href="#menu">Menu</a>
+    <a href="#galeria" data-en="Gallery">Galeria</a>
+    <a href="#kontakt" data-en="Contact">Kontakt</a>
+    <a class="cta" href="https://www.instagram.com/madamehanoi.pl" target="_blank" rel="noopener">Instagram</a>
+  </div>
+  <div class="lang-sw" role="group" aria-label="język / language">
+    <button id="lang-pl" class="on" type="button">PL</button><span>·</span><button id="lang-en" type="button">EN</button>
+  </div>
+</nav>
+
+<!-- ======================= HERO ======================= -->
+<header class="hero" id="top">
+  <canvas id="embers" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <svg class="hero-logo" viewBox="0 0 64 64" aria-hidden="true"><use href="#lotus"/></svg>
+    <h1>Madame <em>Hanoi</em></h1>
+    <p class="tag" data-en="Authentic Vietnamese cuisine">Autentyczna kuchnia wietnamska</p>
+    <div class="flourish">✦ ✦ ✦</div>
+    <a class="addr" href="https://maps.app.goo.gl/C43zNtfMTMiQCrqGA" target="_blank" rel="noopener">
+      ⚲ &nbsp;Chmielna 6 · Śródmieście · Warszawa
+    </a>
+    <div class="btns">
+      <a class="btn btn-red" href="#menu" data-en="View menu">Zobacz menu</a>
+      <a class="btn btn-ghost" href="https://ig.me/m/madamehanoi.pl" target="_blank" rel="noopener" data-en="Book a table">Zarezerwuj stolik</a>
+    </div>
+  </div>
+  <a class="scroll-hint" href="#o-nas" aria-label="przewiń w dół">▾</a>
+</header>
+
+<!-- ======================= O NAS ======================= -->
+<section id="o-nas">
+  <div class="wrap">
+    <p class="sec-label" data-en="Our story">Nasza historia</p>
+    <h2 class="sec-title" data-en="The flavours of Hanoi on Chmielna">Smaki Hanoi na Chmielnej</h2>
+    <p class="sec-sub" data-en="The streets of old Hanoi in a bowl of phở — in the very heart of Warsaw.">Ulice starego Hanoi zamknięte w miseczce phở — w samym sercu Warszawy.</p>
+    <div class="about-grid">
+      <div class="rv">
+        <p data-en="<strong>Madame Hanoi</strong> is a tribute to the cuisine of northern Vietnam — slow-cooked, fragrant with lemongrass, ginger and fresh coriander. Our recipes came from Hanoi together with family stories and spices that simply cannot be faked."><strong>Madame Hanoi</strong> to hołd dla kuchni północnego Wietnamu — tej gotowanej
+        powoli, pachnącej trawą cytrynową, imbirem i świeżą kolendrą. Nasze receptury przyjechały
+        z Hanoi razem z rodzinnymi historiami i przyprawami, których nie da się podrobić.</p>
+        <p data-en="Our <strong>phở</strong> broth simmers for long hours, spring rolls are rolled by hand, and <strong>chả cá Lã Vọng</strong> — the legendary dill fish — is served just like in the famous eateries by Hanoi's West Lake.">Bulion do <strong>phở</strong> gotujemy wiele godzin, sajgonki zwijamy ręcznie,
+        a <strong>chả cá Lã Vọng</strong> — legendarną rybę z koperkiem — podajemy tak,
+        jak w słynnych jadłodajniach nad Jeziorem Zachodnim.</p>
+        <p data-en="You will find us at <strong>Chmielna 6</strong>, a few steps from Nowy Świat. Drop in for lunch, a dinner for two, or a quick bowl of warming soup.">Znajdziecie nas przy <strong>Chmielnej 6</strong>, kilka kroków od Nowego Światu.
+        Wpadnijcie na obiad, kolację we dwoje albo szybką miskę rozgrzewającej zupy.</p>
+      </div>
+      <div class="about-pics rv">
+        <img src="img/goi-cuon.jpg" alt="Gỏi cuốn — świeże sajgonki Madame Hanoi">
+        <img src="img/cha-ca.jpg" alt="Chả cá Lã Vọng — ryba po hanojsku z koperkiem">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= MENU ======================= -->
+<section id="menu">
+  <div class="wrap">
+    <p class="sec-label" data-en="The menu">Karta dań</p>
+    <h2 class="sec-title" data-en="Our menu">Nasze menu</h2>
+    <p class="sec-sub" data-en="Home-style Vietnamese cooking — from fresh rolls to wok-fired dishes. Prices in PLN.">Kuchnia wietnamska w wydaniu domowym — od świeżych rolek po dania z woka.
+    Ceny w złotych.</p>
+
+    <!-- ~~~~~~~~~~~ PRZEKĄSKI ~~~~~~~~~~~ -->
+    <div class="cat rv" id="przekaski">
+      <div class="cat-head">
+        <img src="img/goi-cuon.jpg" alt="">
+        <div><h3 data-en="Starters">Przekąski</h3><span class="vn" data-en="Khai vị">Khai vị · Starters</span></div>
+      </div>
+      <div class="cat-items">
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">1. Gỏi Cuốn <em>· 4 szt.</em></span><span class="mi-dots"></span><span class="mi-price">23–30</span></div>
+          <p class="mi-desc">Świeże sajgonki bez smażenia — makaron ryżowy, marchewka, świeże zioła; sos orzechowy, pikantny lub słodko-kwaśny.</p>
+          <p class="mi-en">Fresh spring rolls: rice noodle, carrots, fresh herbs with peanut butter, spicy or sweet-sour sauce.</p>
+          <div class="mi-var"><span>tofu <b>23</b></span><span>wołowina <b>25</b></span><span>kaczka <b>30</b></span><span>krewetki <b>30</b></span></div>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">2. Nem Hà Nội <em>· 3 szt.</em></span><span class="mi-dots"></span><span class="mi-price">23</span></div>
+          <p class="mi-desc">Tradycyjne smażone sajgonki z mięsem.</p>
+          <p class="mi-en">Vietnamese fried spring rolls.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">3. Gà Sate <em>· 3 szt.</em></span><span class="mi-dots"></span><span class="mi-price">27</span></div>
+          <p class="mi-desc">Grillowane szaszłyki z kurczaka w przyprawie satay.</p>
+          <p class="mi-en">Grilled chicken satay skewers.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">4. Tôm Chiên Cốm <em>· 3 szt.</em></span><span class="mi-dots"></span><span class="mi-price">28</span></div>
+          <p class="mi-desc">Krewetki panierowane w młodym zielonym ryżu.</p>
+          <p class="mi-en">Crispy shrimps coated with young green rice flakes.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">5. Tôm Sốt Mayo <em>· 3 szt.</em></span><span class="mi-dots"></span><span class="mi-price">28</span></div>
+          <p class="mi-desc">Krewetki w sosie mayo.</p>
+          <p class="mi-en">Shrimps in mayo sauce.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">6. Combo Madame Hà Nội</span><span class="mi-dots"></span><span class="mi-price">45</span></div>
+          <p class="mi-desc">Zestaw przystawek: chrupiące sajgonki po hanojsku, świeże rolki ryżowe z krewetkami, wietnamskie szaszłyki wieprzowe z trawą cytrynową, grillowana wołowina w liściach betelu.</p>
+          <p class="mi-en">Combo set: Hanoi crispy spring rolls, fresh shrimp rice paper rolls, Vietnamese lemongrass pork skewers, grilled beef in betel leaves.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~ SAŁATKI ~~~~~~~~~~~ -->
+    <div class="cat rv" id="salatki">
+      <div class="cat-head">
+        <img src="img/nom-su-hao.jpg" alt="">
+        <div><h3 data-en="Salads">Sałatki</h3><span class="vn" data-en="Nộm">Nộm · Salads</span></div>
+      </div>
+      <div class="cat-items">
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">7. Nộm Su Hào</span><span class="mi-dots"></span><span class="mi-price">28</span></div>
+          <p class="mi-desc">Wietnamska sałatka z kalarepą i marchewką, z dodatkiem świeżych ziół i orzeszków ziemnych.</p>
+          <p class="mi-en">Vietnamese kohlrabi salad with fresh herbs and nuts.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">8. Nộm Bò · Nộm Tôm</span><span class="mi-dots"></span><span class="mi-price">30 / 38</span></div>
+          <p class="mi-desc"><b>8a.</b> Sałatka wołowa — wołowina, ogórek, czerwona cebula, kiełki, marchew, domowa cebula prażona, świeże zioła.<br>
+          <b>8b.</b> Sałatka mango z krewetkami — kolendra, chilli, sos rybny, ocet ryżowy, limonka, orzeszki ziemne.</p>
+          <p class="mi-en"><b>8a.</b> Beef salad — beef, cucumber, red onion, sprouts, carrots, homemade fried onion, fresh herbs.<br>
+          <b>8b.</b> Mango shrimp salad — coriander, chilli, fish sauce, rice vinegar, lime, peanuts.</p>
+          <div class="mi-var"><span>wołowa <b>30</b></span><span>mango z krewetkami <b>38</b></span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~ ZUPY ~~~~~~~~~~~ -->
+    <div class="cat rv" id="zupy">
+      <div class="cat-head">
+        <img src="img/tom-yum.jpg" alt="">
+        <div><h3 data-en="Soups">Zupy</h3><span class="vn" data-en="Súp">Súp · Soups</span></div>
+      </div>
+      <div class="cat-items">
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">9. Tom Yum Kung</span><span class="mi-dots"></span><span class="mi-price">25–28</span></div>
+          <p class="mi-desc">Ostro-kwaśna zupa z pomidorami, grzybami, trawą cytrynową, galangą i kolendrą.</p>
+          <p class="mi-en">Spicy and sour soup with tomatoes, mushrooms, lemongrass, galangal and coriander.</p>
+          <div class="mi-var"><span>kurczak <b>25</b></span><span>krewetki <b>28</b></span></div>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">10. Tom Kha <em>· galangal</em></span><span class="mi-dots"></span><span class="mi-price">25–28</span></div>
+          <p class="mi-desc">Ostro-kwaśna zupa na mleku kokosowym z galangalem i trawą cytrynową.</p>
+          <p class="mi-en">Spicy and sour coconut milk soup with galangal and lemongrass.</p>
+          <div class="mi-var"><span>kurczak <b>25</b></span><span>krewetki <b>28</b></span></div>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">11. Phở Hà Nội <em>· M 490 ml / L 990 ml</em></span><span class="mi-dots"></span><span class="mi-price">od 27</span></div>
+          <p class="mi-desc">Tradycyjny bulion wołowy z makaronem ryżowym i bukietem pachnących ziół.</p>
+          <p class="mi-en">Traditional beef broth with rice noodles and a bouquet of fragrant herbs.</p>
+          <div class="mi-var"><span>kurczak <b>27/32</b></span><span>wołowina smażona <b>27/34</b></span><span>wołowina sốt vang <b>27/36</b></span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~ BÚN & PHỞ ~~~~~~~~~~~ -->
+    <div class="cat rv" id="bun">
+      <div class="cat-head">
+        <img src="img/bun-cha.jpg" alt="">
+        <div><h3>Bún &amp; Phở</h3><span class="vn" data-en="Hanoi-style rice noodles">Makarony ryżowe po hanojsku</span></div>
+      </div>
+      <div class="cat-items">
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">12. Bún Chả Hà Nội</span><span class="mi-dots"></span><span class="mi-price">35</span></div>
+          <p class="mi-desc">Grillowany boczek z klopsikami wieprzowymi i makaronem ryżowym.</p>
+          <p class="mi-en">Vietnamese grilled pork with rice noodles.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">13. Bánh Hỏi Lá Lốt</span><span class="mi-dots"></span><span class="mi-price">35</span></div>
+          <p class="mi-desc">Pleciony makaron ryżowy z roladkami z grilla w liściach lốt.</p>
+          <p class="mi-en">Rice vermicelli woven sheets with grilled beef wrapped in betel leaves.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">14. Bún Nam Bộ</span><span class="mi-dots"></span><span class="mi-price">34–36</span></div>
+          <p class="mi-desc">Wietnamska sałatka z nitkami ryżowymi, świeżymi ziołami, chrupiącymi warzywami, orzeszkami ziemnymi i dressingiem na bazie sosu rybnego.</p>
+          <p class="mi-en">Vietnamese rice vermicelli salad with fresh herbs, crunchy vegetables, peanuts and a fish sauce dressing.</p>
+          <div class="mi-var"><span>kurczak <b>34</b></span><span>wołowina <b>36</b></span></div>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">15. Phở Trộn</span><span class="mi-dots"></span><span class="mi-price">34–36</span></div>
+          <p class="mi-desc">Miska phở podawana na zimno z kolendrą, domową prażoną cebulką, kiełkami oraz autorskim ciemnym sosem sojowym.</p>
+          <p class="mi-en">Cold Vietnamese pho bowl with coriander, homemade fried shallots, bean sprouts and our signature dark soy sauce.</p>
+          <div class="mi-var"><span>pierś kurczaka <b>34</b></span><span>udko kurczaka <b>35</b></span><span>wołowina <b>36</b></span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~ KUCHNIA REGIONALNA ~~~~~~~~~~~ -->
+    <div class="cat rv" id="regionalna">
+      <div class="cat-head">
+        <img src="img/cha-ca.jpg" alt="">
+        <div><h3 data-en="Regional cuisine">Kuchnia regionalna</h3><span class="vn" data-en="Northern specialities">Regional cuisine</span></div>
+      </div>
+      <div class="cat-items">
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">16. Chả Cá Lã Vọng</span><span class="mi-dots"></span><span class="mi-price">40–50</span></div>
+          <p class="mi-desc">Ryba Lã Vọng z cebulą, koperkiem, orzeszkami ziemnymi oraz domową prażoną cebulką.</p>
+          <p class="mi-en">Vietnamese-style fish with spring onion, dill, peanuts and homemade fried shallots.</p>
+          <div class="mi-var"><span>dorsz <b>40</b></span><span>jesiotr <b>50</b></span></div>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">17. Vịt Cuốn Hoisin</span><span class="mi-dots"></span><span class="mi-price">45</span></div>
+          <p class="mi-desc">Grillowana kaczka w plastrach, por i pokrojone ogórki, podawane z sosem hoisin.</p>
+          <p class="mi-en">Grilled sliced duck with leek and sliced cucumber, served with hoisin sauce.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~ DANIA SZEFA ~~~~~~~~~~~ -->
+    <div class="cat rv" id="dania-szefa">
+      <div class="cat-head">
+        <img src="img/losos.jpg" alt="">
+        <div><h3 data-en="Chef's specials">Dania szefa kuchni</h3><span class="vn" data-en="From the chef">Chef's specials</span></div>
+      </div>
+      <div class="cat-items">
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">18. Łosoś grillowany</span><span class="mi-dots"></span><span class="mi-price">45</span></div>
+          <p class="mi-desc">Łosoś z grillowanymi warzywami i ryżem jaśminowym.</p>
+          <p class="mi-en">Salmon with grilled seasonal vegetables and jasmine rice.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">19. Pieczona kaczka</span><span class="mi-dots"></span><span class="mi-price">45</span></div>
+          <p class="mi-desc">Kaczka pieczona z ziemniakami w mundurkach.</p>
+          <p class="mi-en">Roasted duck with young potatoes.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">20. Stek z rostbefu</span><span class="mi-dots"></span><span class="mi-price">52</span></div>
+          <p class="mi-desc">Stek z rostbefu z frytkami belgijskimi.</p>
+          <p class="mi-en">Rostbeef steak with Belgian fries.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~ DANIA Z RYŻEM ~~~~~~~~~~~ -->
+    <div class="cat rv" id="ryz">
+      <div class="cat-head">
+        <img src="img/com-tho.jpg" alt="">
+        <div><h3 data-en="Jasmine rice dishes">Dania z ryżem jaśminowym</h3><span class="vn" data-en="Cơm">Cơm · Rice dishes</span></div>
+      </div>
+      <div class="cat-items">
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">21. Bò Nướng Ống Tre</span><span class="mi-dots"></span><span class="mi-price">38</span></div>
+          <p class="mi-desc">Wołowina w bambusowej tubie.</p>
+          <p class="mi-en">Beef in bamboo tube.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">22. Chrupiący kurczak panko</span><span class="mi-dots"></span><span class="mi-price">33</span></div>
+          <p class="mi-desc">Chrupiące filety z kurczaka w panierce, podawane z ryżem i sałatką.</p>
+          <p class="mi-en">Crispy fried chicken served with rice and salad.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">23. Bò Sốt Vang</span><span class="mi-dots"></span><span class="mi-price">36</span></div>
+          <p class="mi-desc">Wołowina duszona w sosie z czerwonym winem, podawana z makaronem ryżowym lub ryżem jaśminowym.</p>
+          <p class="mi-en">Beef stewed in red wine sauce, served with rice noodle or jasmine rice.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">24. Bò Lúc Lắc</span><span class="mi-dots"></span><span class="mi-price">36</span></div>
+          <p class="mi-desc">Rostbef wołowy smażony na woku („shaking beef”), z czerwoną papryką i sosem ostrygowym.</p>
+          <p class="mi-en">Vietnamese shaking beef (wok-fried beef sirloin) with red bell pepper and oyster sauce.</p>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">25. Cơm Thố</span><span class="mi-dots"></span><span class="mi-price">34–40</span></div>
+          <p class="mi-desc">Smażony ryż w stylu Hanoi w glinianym garnku, z jajkiem sadzonym i kimchi, podawany z jedną porcją bulionu.</p>
+          <p class="mi-en">Hanoi-style fried rice in a clay pot with a fried egg and kimchi, served with a bowl of broth.</p>
+          <div class="mi-var"><span>kurczak <b>34</b></span><span>wołowina <b>38</b></span><span>krewetki <b>40</b></span></div>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">26. Sốt Tiêu Đen</span><span class="mi-dots"></span><span class="mi-price">36–42</span></div>
+          <p class="mi-desc">Sos z czarnego pieprzu z cebulą.</p>
+          <p class="mi-en">Black pepper sauce with onions.</p>
+          <div class="mi-var"><span>kurczak <b>36</b></span><span>wołowina <b>38</b></span><span>kaczka <b>42</b></span></div>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">27. Sốt Teriyaki</span><span class="mi-dots"></span><span class="mi-price">34–42</span></div>
+          <p class="mi-desc">Sos teriyaki.</p>
+          <p class="mi-en">Teriyaki sauce.</p>
+          <div class="mi-var"><span>kurczak <b>34</b></span><span>wołowina <b>38</b></span><span>łosoś grillowany <b>40</b></span><span>kaczka <b>42</b></span></div>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">28. Sốt Xoài</span><span class="mi-dots"></span><span class="mi-price">36–42</span></div>
+          <p class="mi-desc">Sos mango.</p>
+          <p class="mi-en">Mango sauce.</p>
+          <div class="mi-var"><span>kurczak <b>36</b></span><span>wołowina <b>37</b></span><span>krewetki <b>38</b></span><span>kaczka <b>42</b></span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~ MAKARONY ~~~~~~~~~~~ -->
+    <div class="cat rv" id="makarony">
+      <div class="cat-head">
+        <img src="img/padthai.jpg" alt="">
+        <div><h3 data-en="Wok noodles">Makarony z woka</h3><span class="vn" data-en="Mì xào">Mì xào · Noodles</span></div>
+      </div>
+      <div class="cat-items">
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">29. Udon</span><span class="mi-dots"></span><span class="mi-price">33–40</span></div>
+          <p class="mi-desc">Gruby japoński makaron pszenny z sezonowymi warzywami i czosnkiem.</p>
+          <p class="mi-en">Thick Japanese wheat noodles with seasonal vegetables and garlic.</p>
+          <div class="mi-var"><span>kurczak <b>33</b></span><span>wołowina <b>34</b></span><span>krewetki <b>37</b></span><span>kaczka <b>40</b></span></div>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">30. Pad Thai</span><span class="mi-dots"></span><span class="mi-price">33–40</span></div>
+          <p class="mi-desc">Makaron ryżowy z sezonowymi warzywami, sosem tamaryndowym i orzeszkami ziemnymi.</p>
+          <p class="mi-en">Rice noodles with seasonal vegetables, tamarind sauce and peanuts.</p>
+          <div class="mi-var"><span>kurczak <b>33</b></span><span>wołowina <b>34</b></span><span>krewetki <b>37</b></span><span>kaczka <b>40</b></span></div>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">31. Miến Xào</span><span class="mi-dots"></span><span class="mi-price">33–37</span></div>
+          <p class="mi-desc">Makaron sojowy smażony na woku z sezonowymi warzywami.</p>
+          <p class="mi-en">Wok-fried glass noodles with seasonal vegetables.</p>
+          <div class="mi-var"><span>kurczak <b>33</b></span><span>wołowina <b>34</b></span><span>krewetki <b>37</b></span></div>
+        </div>
+        <div class="mi">
+          <div class="mi-head"><span class="mi-name">32. Phở Xào</span><span class="mi-dots"></span><span class="mi-price">33–37</span></div>
+          <p class="mi-desc">Makaron ryżowy smażony na woku z sezonowymi warzywami.</p>
+          <p class="mi-en">Wok-fried rice noodles with seasonal vegetables.</p>
+          <div class="mi-var"><span>kurczak <b>33</b></span><span>wołowina <b>34</b></span><span>krewetki <b>37</b></span></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="menu-note" data-en="Allergies or questions about ingredients? Ask our staff — we are happy to help.">Masz alergię lub pytanie o skład? Zapytaj obsługę — chętnie doradzimy.</p>
+    <div class="menu-cards">
+      <a class="btn btn-dark" href="#" id="open-cards" data-en="Browse the original menu cards →">Przeglądaj oryginalne karty menu →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= GALERIA ======================= -->
+<section id="galeria">
+  <div class="wrap">
+    <p class="sec-label" data-en="From our kitchen">Z naszej kuchni</p>
+    <h2 class="sec-title" data-en="Gallery">Galeria</h2>
+    <p class="sec-sub" data-en="Every plate is composed to please the eyes before it reaches the palate.">Każdy talerz komponujemy tak, żeby cieszył oczy zanim trafi na język.</p>
+    <div class="gal-grid rv" id="gal">
+      <a href="img/goi-cuon.jpg"      data-t="Gỏi Cuốn — świeże sajgonki"><img src="img/goi-cuon.jpg" alt="Gỏi Cuốn" loading="lazy"></a>
+      <a href="img/combo-madame.jpg"  data-t="Combo Madame Hà Nội"><img src="img/combo-madame.jpg" alt="Combo Madame Hà Nội" loading="lazy"></a>
+      <a href="img/cha-ca.jpg"        data-t="Chả Cá Lã Vọng"><img src="img/cha-ca.jpg" alt="Chả Cá Lã Vọng" loading="lazy"></a>
+      <a href="img/vit-cuon.jpg"      data-t="Vịt Cuốn Hoisin — kaczka"><img src="img/vit-cuon.jpg" alt="Vịt Cuốn Hoisin" loading="lazy"></a>
+      <a href="img/losos.jpg"         data-t="Łosoś grillowany"><img src="img/losos.jpg" alt="Łosoś grillowany" loading="lazy"></a>
+      <a href="img/kaczka.jpg"        data-t="Pieczona kaczka"><img src="img/kaczka.jpg" alt="Pieczona kaczka" loading="lazy"></a>
+      <a href="img/bun-cha.jpg"       data-t="Bún Chả Hà Nội"><img src="img/bun-cha.jpg" alt="Bún Chả Hà Nội" loading="lazy"></a>
+      <a href="img/pho-tron.jpg"      data-t="Phở Trộn"><img src="img/pho-tron.jpg" alt="Phở Trộn" loading="lazy"></a>
+      <a href="img/com-tho.jpg"       data-t="Cơm Thố — ryż w glinianym garnku"><img src="img/com-tho.jpg" alt="Cơm Thố" loading="lazy"></a>
+      <a href="img/bo-ong-tre.jpg"    data-t="Bò Nướng Ống Tre — wołowina w bambusie"><img src="img/bo-ong-tre.jpg" alt="Bò Nướng Ống Tre" loading="lazy"></a>
+      <a href="img/padthai.jpg"       data-t="Pad Thai z krewetkami"><img src="img/padthai.jpg" alt="Pad Thai" loading="lazy"></a>
+      <a href="img/tom-chien-com.jpg" data-t="Tôm Chiên Cốm — krewetki w zielonym ryżu"><img src="img/tom-chien-com.jpg" alt="Tôm Chiên Cốm" loading="lazy"></a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= KONTAKT ======================= -->
+<section id="kontakt">
+  <div class="wrap">
+    <p class="sec-label" data-en="Welcome">Zapraszamy</p>
+    <h2 class="sec-title" data-en="Contact &amp; reservations">Kontakt i rezerwacje</h2>
+    <p class="sec-sub" data-en="Right in the city centre — between Nowy Świat and Pasaż Wiecha.">Jesteśmy w samym centrum — między Nowym Światem a Pasażem Wiecha.</p>
+    <div class="contact-grid">
+      <div class="contact-card rv">
+        <h3>Madame Hanoi</h3>
+        <dl>
+          <dt data-en="Address">Adres</dt>
+          <dd>ul. Chmielna 6<br>00-020 Warszawa, Śródmieście</dd>
+          <dt data-en="Opening hours">Godziny otwarcia</dt>
+          <dd data-en="Mon–Sun, 12:00 – 21:00">pon.–niedz. 12:00 – 21:00</dd>
+          <dt data-en="Reservations">Rezerwacje</dt>
+          <dd data-en="message us on <a href='https://ig.me/m/madamehanoi.pl' target='_blank' rel='noopener'>Instagram</a>">napisz do nas na <a href="https://ig.me/m/madamehanoi.pl" target="_blank" rel="noopener">Instagramie</a></dd>
+        </dl>
+        <p class="small" data-en="Current opening hours and announcements are always on our Instagram profile.">Aktualne godziny otwarcia i ogłoszenia znajdziesz zawsze na naszym profilu na Instagramie.</p>
+        <div class="btns">
+          <a class="btn btn-red" href="https://maps.app.goo.gl/C43zNtfMTMiQCrqGA" target="_blank" rel="noopener" data-en="Get directions">Wyznacz trasę</a>
+          <a class="btn btn-dark" href="https://www.instagram.com/madamehanoi.pl" target="_blank" rel="noopener">@madamehanoi.pl</a>
+        </div>
+      </div>
+      <div class="rv">
+        <iframe class="map-frame" title="Mapa — Madame Hanoi, Chmielna 6, Warszawa" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q=Madame%20Hanoi%2C%20Chmielna%206%2C%20Warszawa&t=&z=16&ie=UTF8&iwloc=&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= FOOTER ======================= -->
+<footer>
+  <svg class="f-logo" viewBox="0 0 64 64" aria-hidden="true"><use href="#lotus"/></svg>
+  <div class="f-name">Madame Hanoi</div>
+  <p class="f-addr">ul. Chmielna 6 · 00-020 Warszawa</p>
+  <p>© 2026 Madame Hanoi · <a href="https://www.instagram.com/madamehanoi.pl" target="_blank" rel="noopener">Instagram</a></p>
+</footer>
+
+<!-- ======================= LIGHTBOX ======================= -->
+<div id="lb" role="dialog" aria-label="podgląd zdjęcia">
+  <button class="lb-x" aria-label="zamknij">×</button>
+  <button class="lb-p" aria-label="poprzednie">‹</button>
+  <img src="" alt="">
+  <div class="lb-cap"></div>
+  <button class="lb-n" aria-label="następne">›</button>
+</div>
+
+<!-- ======================= LOGO (symbol) ======================= -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="lotus" viewBox="0 0 64 64">
+      <g fill="none" stroke="#c9a24b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <!-- płatek środkowy -->
+        <path d="M32 10 C 26 20, 26 32, 32 42 C 38 32, 38 20, 32 10 Z" fill="rgba(201,162,75,.14)"/>
+        <!-- płatki boczne wewnętrzne -->
+        <path d="M18 20 C 20 30, 25 38, 32 42 C 30 32, 26 25, 18 20 Z" fill="rgba(201,162,75,.10)"/>
+        <path d="M46 20 C 44 30, 39 38, 32 42 C 34 32, 38 25, 46 20 Z" fill="rgba(201,162,75,.10)"/>
+        <!-- płatki zewnętrzne -->
+        <path d="M8 30 C 13 38, 22 43, 32 42 C 26 36, 18 31, 8 30 Z" fill="rgba(168,40,48,.16)" stroke="#b4543f"/>
+        <path d="M56 30 C 51 38, 42 43, 32 42 C 38 36, 46 31, 56 30 Z" fill="rgba(168,40,48,.16)" stroke="#b4543f"/>
+        <!-- woda -->
+        <path d="M16 50 Q 24 46, 32 50 T 48 50" stroke="#c9a24b"/>
+        <path d="M22 56 Q 28 52.5, 34 56 T 44 56" stroke="#c9a24b" opacity=".6"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
